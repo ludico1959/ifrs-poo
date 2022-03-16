@@ -1,0 +1,1 @@
+1. Por que não precisa importar as classes do Java dentro de App.java? 
