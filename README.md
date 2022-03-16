@@ -7,4 +7,4 @@
 
 Repositório destinado ao armazenamento de exercícios da disciplina de POO do curso de Tecnologia em Análise e Desenvolvimento de Sistenas do IFRS Campus Rio Grande.
 
-Professor: [Márcio Nunes](https://github.com/profmarciotorres).
+Professor: [Márcio Torres](https://github.com/profmarciotorres).
