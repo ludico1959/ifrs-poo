@@ -5,6 +5,6 @@
 
 ## Programação Orientada a Objetos
 
-Repositório destinado ao armazenamento de exercícios da disciplina de POO do curso de Tecnologia em Análise e Desenvolvimento de Sistenas do IFRS Campus Rio Grande.
+Repositório destinado ao armazenamento de materiais, exercícios e trabalhos da disciplina de POO do curso de Tecnologia em Análise e Desenvolvimento de Sistenas do IFRS Campus Rio Grande.
 
 Professor: [Márcio Torres](https://github.com/profmarciotorres).
