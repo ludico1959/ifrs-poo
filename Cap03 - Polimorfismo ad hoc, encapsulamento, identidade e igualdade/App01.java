@@ -1,4 +1,4 @@
-class App {
+class App01 {
   public static void main(String[] args) {
     // Identidade: mesmo objeto
     // Igualdade: objetos diferentes, mas equivalentes em valor.
