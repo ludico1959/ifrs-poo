@@ -1,9 +1,21 @@
 class Copo {
-  final int capacidade; // estado constante
-  int quantidade = 0; // estado variável ou instantâneo
+  private final int capacidade; // estado constante
+  private int quantidade = 0; // estado variável ou instantâneo
+  /**
+   * private: somente objetos da mesma classe podem ter acesso
+   * visível apenas na própria classe
+   */
   
   Copo (int capacidade) {
+    if (capacidade <= 0)
+      throw new IllegalArgumentException("Capacidade deve ser maior que 0");
+
     this.capacidade = capacidade;
+  }
+
+  // sobrecarga de construtor
+  Copo () {
+    this.capacidade = 300;
   }
 
   void encher() {
@@ -44,5 +56,15 @@ class Copo {
     }
 
     this.quantidade = quantidade;
+  }
+
+  // método de consulta / getter
+  int getQuantidade() {
+    return this.quantidade;
+  }
+
+  // getter
+  int getQCapacidade() {
+    return this.capacidade;
   }
 }

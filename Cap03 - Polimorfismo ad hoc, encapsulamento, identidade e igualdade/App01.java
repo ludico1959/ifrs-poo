@@ -1,13 +1,16 @@
+// Codado em aula presencial
 class App01 {
   public static void main(String[] args) {
     // Identidade: mesmo objeto
     // Igualdade: objetos diferentes, mas equivalentes em valor.
 
+    ///////////////////////////////////////////////////////////////////
+    // PESSOA
     Pessoa lucas = new Pessoa("Lucas");
-    System.out.println(lucas.getNome());
+    System.out.println(lucas.getNome()); // Lucas
 
     Pessoa matheus = new Pessoa("Rodrigo");
-    System.out.println(matheus.getNome());
+    System.out.println(matheus.getNome()); // Rodrigo
 
     System.out.println(lucas == matheus); // false
     // System.out.println(lucas == lucas); // true
@@ -17,8 +20,8 @@ class App01 {
     System.out.println(lucas == rodrigo); // true
 
     rodrigo.setNome("Matheus");
-    System.out.println(rodrigo.getNome());
-    System.out.println(lucas.getNome());
+    System.out.println(rodrigo.getNome()); // Matheus
+    System.out.println(lucas.getNome()); // Matheus
     // rodrigo aponta para o mesmo lugar da memória do objeto lucas
     // eles salvam só os endereços do objeto
     
@@ -33,12 +36,18 @@ class App01 {
     Pessoa luiz2 = new Pessoa("Luiz");
     System.out.println(luiz1 == luiz2); // false
 
+    ///////////////////////////////////////////////////////////////////
+    // ALUNO
+    
     // Entidade
     Aluno aluno1 = new Aluno(11223344, "Luiza Léa Coelho");
     Aluno aluno2 = new Aluno(11223344, "Luiza Léa Coelho");
     System.out.println(aluno1 == aluno2); // false
     System.out.println(aluno1.equals(aluno2)); // true
     // tem um método equals no aluno
+
+    ///////////////////////////////////////////////////////////////////
+    // DATA
 
     // Objeto de valor
     Data data1 = new Data(22, 3, 2022);

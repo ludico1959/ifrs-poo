@@ -24,8 +24,13 @@ class ArCondicionado {
     this.btus = btus;
   }
 
+  private void validarInvariantes() {
+    if (this.temperatura == 30) 
+      throw new IllegalStateException("O ar está no máximo / 30°");
+  }
+
   void aumentarTemperatura() {
-    if (this.temperatura == 30) throw new IllegalStateException("O ar está no máximo / 30°");
+    this.validarInvariantes();
     
     this.temperatura++;
   }
