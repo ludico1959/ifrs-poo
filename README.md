@@ -7,4 +7,4 @@
 
 Repositório destinado ao armazenamento de materiais, exercícios e trabalhos da disciplina de **POO** do curso de Tecnologia em Análise e Desenvolvimento de Sistenas do IFRS Campus Rio Grande.
 
-Professor: [M: Márcio Josué Ramos Torres](https://github.com/profmarciotorres).
+Professor: [Márcio Josué Ramos Torres](https://github.com/profmarciotorres).
