@@ -27,4 +27,16 @@ public class Tempo {
   public int getMinutos() {
     return this.segundos / 60;
   }
+
+  public int getHoras() {
+    return this.segundos / 3600;
+  }
+
+  public int getSegundosRestantes() {
+    return this.segundos % 60;
+  }
+
+  public void adiciona(Tempo tempo) {
+    this.segundos += tempo.segundos; 
+  }
 }

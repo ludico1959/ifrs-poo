@@ -1,4 +1,5 @@
 import util.Tempo;
+// import util.IData;
 
 // Codado em aula remota
 class App02 {
@@ -38,12 +39,12 @@ class App02 {
     ///////////////////////////////////////////////////////////////////
     // LÂMPADA
     Lampada lampada20w = new Lampada(110);
-    System.out.println(lampada20w.tensao); // 110
-    System.out.println(lampada20w.potencia); // 20
+    System.out.println(lampada20w.getTensao()); // 110
+    System.out.println(lampada20w.getPotencia()); // 20
 
     Lampada lampada20w220v = new Lampada();
-    System.out.println(lampada20w220v.tensao); // 110
-    System.out.println(lampada20w220v.potencia); // 20
+    System.out.println(lampada20w220v.getTensao()); // 110
+    System.out.println(lampada20w220v.getPotencia()); // 20
 
     ///////////////////////////////////////////////////////////////////
     // TEMPO
@@ -62,6 +63,11 @@ class App02 {
     Tempo tempo05 = new Tempo ("05:15");
     System.out.println(tempo05.getSegundos()); // 315
     System.out.println(tempo05.getMinutos()); // 5
+    tempo05.adiciona(new Tempo(50));
+    System.out.println(tempo05.getMinutos() + ":" + tempo05.getSegundosRestantes()); // 6:5
+
+    // IData data;
+    // data.getAno(2012);
   }
 
   /**

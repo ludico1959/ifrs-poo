@@ -1,4 +1,4 @@
-class Copo {
+public class Copo {
   private final int capacidade; // estado constante
   private int quantidade = 0; // estado variável ou instantâneo
   /**
@@ -6,7 +6,7 @@ class Copo {
    * visível apenas na própria classe
    */
   
-  Copo (int capacidade) {
+  public Copo (int capacidade) {
     if (capacidade <= 0)
       throw new IllegalArgumentException("Capacidade deve ser maior que 0");
 
@@ -14,16 +14,16 @@ class Copo {
   }
 
   // sobrecarga de construtor
-  Copo () {
+  public Copo () {
     this.capacidade = 300;
   }
 
-  void encher() {
+  public void encher() {
     this.quantidade = this.capacidade;
   }
 
   // sobrecarga do método encher
-  void encher(int quantidade) {
+  public void encher(int quantidade) {
     if (this.quantidade + quantidade > this.capacidade)
       throw new IllegalArgumentException("quantidade inválida");
 
@@ -31,7 +31,7 @@ class Copo {
   }
 
   // sobrecarga do método encher
-  void encher(double percentual) {
+  public void encher(double percentual) {
     if (this.quantidade + (percentual * this.capacidade) > this.capacidade)
       throw new IllegalArgumentException("percentual inválido");
 
@@ -42,15 +42,15 @@ class Copo {
     this.encher((int) (percentual * this.capacidade));
   }
 
-  void esvaziar() {
+  public void esvaziar() {
     this.quantidade = 0;
   } 
 
-  void encherMetade() {
+  public void encherMetade() {
     this.quantidade = this.capacidade / 2;
   }
 
-  void encherQuantidade(int quantidade) {
+  public void encherQuantidade(int quantidade) {
     if (quantidade <= 0 || quantidade > 500) {
       throw new IllegalArgumentException("quantidade inválida");
     }
@@ -59,12 +59,12 @@ class Copo {
   }
 
   // método de consulta / getter
-  int getQuantidade() {
+  public int getQuantidade() {
     return this.quantidade;
   }
 
   // getter
-  int getQCapacidade() {
+  public int getQCapacidade() {
     return this.capacidade;
   }
 }

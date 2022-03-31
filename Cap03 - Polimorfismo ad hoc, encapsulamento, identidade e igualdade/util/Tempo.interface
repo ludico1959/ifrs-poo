@@ -1,0 +1,17 @@
+/**
+ * interface da lâmapada:
+ * tudo que é público/visível
+ */
+public class Tempo {
+
+  public Tempo(int segundos)
+  public Tempo(int minutos, int segundos)
+  public Tempo(String tempo)
+
+  public int getSegundos()
+  public int getMinutos()
+  public int getHoras()
+  public int getSegundosRestantes()
+  
+  public void adiciona(Tempo tempo)
+}

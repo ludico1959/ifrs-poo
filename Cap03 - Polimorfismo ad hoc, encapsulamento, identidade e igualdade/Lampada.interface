@@ -1,0 +1,19 @@
+/**
+ * interface da lâmapada:
+ * tudo que é público/visível
+ */
+public class Lampada { 
+
+  public Lampada()
+  public Lampada(int tensao)
+  public Lampada(int tensao, int potencia)
+
+  public int getTensao() 
+  public int getPotencia() 
+  public boolean isLigada()
+
+  public void ligar()
+  public void desligar()
+
+  public boolean isLigada()
+}

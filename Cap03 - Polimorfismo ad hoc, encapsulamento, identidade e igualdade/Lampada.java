@@ -1,41 +1,49 @@
-class Lampada {
+public class Lampada {
   // atributos
   // OS VALORES ARMAZENADOS NOS ATRIBUTOS DEFINEM O ESTADO DO OBJETO!
-  final int tensao; // final indica um estado constante
-  final int potencia;
-  boolean ligada; 
+  private final int tensao; // final indica um estado constante
+  private final int potencia;
+  private boolean ligada; 
 
   // construtor
-  Lampada(int tensao, int potencia) {
+  public Lampada(int tensao, int potencia) {
     this.tensao = tensao;
     this.potencia = potencia;
   }
 
   // sobrecarga de construtor
-  Lampada(int tensao) {
+  public Lampada(int tensao) {
     this(tensao, 20); // invoca o construtor completo
   }
 
   // sobrecarga de construtor
-  Lampada() {
+  public Lampada() {
     this(220, 20); // invoca o construtor completo
   }
   // métodos
-  void ligar() { // void (vazio) = não há retorno nada
+  public void ligar() { // void (vazio) = não há retorno nada
     this.ligada = true;
   }
 
-  void desligar() {
+  public void desligar() {
     this.ligada = false;
   }
 
   // consultas / perguntas
   // deixam o código mais idiomático e natural
-  boolean estaLigada() {
+  public boolean isLigada() {
     return this.ligada;
   }
 
-  boolean estaDesligada() {
+  public boolean isDesligada() {
     return !this.ligada;
+  }
+
+  public int getTensao() {
+    return this.tensao;
+  }
+
+  public int getPotencia() {
+    return this.potencia;
   }
 }
