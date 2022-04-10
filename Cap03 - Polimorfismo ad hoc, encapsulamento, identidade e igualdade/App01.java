@@ -56,5 +56,33 @@ class App01 {
     System.out.println(data1 == data2); // false
     System.out.println(data1 == data3); // true
     System.out.println(data1.equals(data2)); // true
+
+    ///////////////////////////////////////////////////////////////////
+    // CARRINHO
+    Carrinho meuCarrinho = new Carrinho();
+		System.out.println(meuCarrinho.getId()); // 1
+		String item = "Caneta";
+
+		meuCarrinho.adicionarItem(item);
+
+		System.out.println(meuCarrinho.getItens()); // Caneta
+		System.out.println(meuCarrinho.getQuantidadeItens()); // 1
+
+		meuCarrinho.adicionarItem("Boné");
+
+		System.out.println(meuCarrinho.getItens()); // [Térmica, Cuia]
+		System.out.println(meuCarrinho.getQuantidadeItens()); // 2
+
+		Carrinho outroCarrinho = new Carrinho();
+		System.out.println(outroCarrinho.getId()); // 2
+
+    String termica = "Térmica";
+    String cuia = "Cuia";
+
+    outroCarrinho.adicionarItem(termica, cuia);
+    outroCarrinho.adicionarItem(5, "Erva Mate");
+
+    System.out.println(outroCarrinho.getItens()); // [Térmica, Cuia, Erva Mate, Erva Mate, Erva Mate, Erva Mate, Erva Mate]
+		System.out.println(outroCarrinho.getQuantidadeItens()); // 7
   }
 }

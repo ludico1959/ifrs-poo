@@ -67,4 +67,20 @@ public class Copo {
   public int getQCapacidade() {
     return this.capacidade;
   }
+
+  // indica que o método está sendo sobreescrito
+  @Override
+  public boolean equals(Object outroObjecto) {
+    if (this == outroObjecto) return true; // é a mesma identidade?
+
+    if (null == outroObjecto) return false; // é nulo?
+
+    if (outroObjecto instanceof Copo) { // é um copo?
+      Copo outroCopo = (Copo) outroObjecto;
+
+      if (this.capacidade == outroCopo.capacidade) return true;
+    }
+
+    return false;
+  }
 }

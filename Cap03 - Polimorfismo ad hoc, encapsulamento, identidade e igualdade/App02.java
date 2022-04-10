@@ -68,6 +68,33 @@ class App02 {
 
     // IData data;
     // data.getAno(2012);
+
+    ///////////////////////////////////////////////////////////////////
+    // COPO
+
+    // copo1 e copo2 armazenam uma referência 
+    Copo copo1 = new Copo(200);
+    Copo copo2 = new Copo(300);
+    Copo copo3 = new Copo(200);
+    Copo copo4 = copo1;
+
+    System.out.println(copo1); 
+    System.out.println(copo2);
+    System.out.println(copo3); // equivalente ao copo1
+    System.out.println(copo4); // mesma identidade do copo1
+    
+    /**
+     * operador '==' em objetos compara a IDENTIDADE
+     * método '.quals' em objetos compara a EQUIVALÊNCIA
+     *  */ 
+    System.out.println(copo1 == copo2); // false
+    System.out.println(copo1.equals(copo2)); // false
+
+    System.out.println(copo1 == copo4); // true
+    System.out.println(copo1.equals(copo4)); // true
+    
+    System.out.println(copo1 == copo3); // false
+    System.out.println(copo1.equals(copo3)); // true
   }
 
   /**
