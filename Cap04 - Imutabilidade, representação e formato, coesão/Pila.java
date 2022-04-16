@@ -15,7 +15,7 @@ public final class Pila {
    * Transforma a chamada acima em string.
    * */ 
   public String toString() {
-    return "R$ " + this.pila;
+    return "R$ " + this.pila; 
   }
 
   public int getPila() {

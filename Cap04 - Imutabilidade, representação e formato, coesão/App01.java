@@ -1,4 +1,4 @@
-public class App {
+public class App01 {
   public static void main(String[] args) {
     Pila doisPila = new Pila(2);
 
