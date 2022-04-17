@@ -5,8 +5,9 @@ import static java.lang.Integer.parseInt;
 /** Tornando Cor um OBJETO DE VALOR:
  * 1. Tornar os objetos constantes (final / readonly)
  * 2. Sempre há um construtor que inicialize as constantes
- * 3. Sobrescrever o método 'equals' comparando todos os atributos, no caso do Java
+ * 3. Sobrescrever o método 'equals' comparando todos os atributos
  * 4. OPCIONAL: adicionar comandos que retirnam uma nova instância
+ * 5. OPCIONAL: sugere-se sobrescrever o método toString
 */
 
 public class Cor {
@@ -110,6 +111,20 @@ public class Cor {
     return false;
   }
   
+  // sobrescrever o método toString ✔
+  @Override
+  public String toString() {
+    return this.red + ", " + this.green + ", " + this.blue;
+  }
+
+  // métodos 'to' próprios
+  public String toRGBString() {
+    return String.format("rgb(%d, %d, %d)", this.red, this.green, this.blue);
+  }
+
+  public String toHEXString() {
+    return String.format("#%02X%02X%02X", this.red, this.green, this.blue);
+  }
 
   // Não é relevante no momento...
   @Override
