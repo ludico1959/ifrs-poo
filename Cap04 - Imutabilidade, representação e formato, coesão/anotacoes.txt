@@ -1,2 +1,0 @@
-Imutabilidade é referente aos atributos privados.
-OU seja, os que contém final.
