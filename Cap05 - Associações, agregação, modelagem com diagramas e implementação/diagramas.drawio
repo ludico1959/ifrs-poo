@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-12T19:15:02.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="b83S1agz1h4qPxyvYHw5" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-12T20:12:54.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="4EcZFrYez2goTILsvKuT" version="18.0.3" type="github">
   <diagram id="IR1mzdjfRpLflZi7iiMT" name="Page-1">
     <mxGraphModel dx="981" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
@@ -48,7 +48,7 @@
         <mxCell id="eGNEnY-xpS5idLWhx4ZI-24" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;papo_reto:Musica&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;b&gt;duração = 3m19s&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;glass=0;sketch=1;strokeColor=#36393d;strokeWidth=1;fillColor=#cdeb8b;" vertex="1" parent="1">
           <mxGeometry x="40" y="800" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="eGNEnY-xpS5idLWhx4ZI-25" value="&lt;h1&gt;agregações:&lt;/h1&gt;&lt;div&gt;diagrama de obrjetos&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;glass=0;sketch=1;fontSize=14;fontColor=#393C56;" vertex="1" parent="1">
+        <mxCell id="eGNEnY-xpS5idLWhx4ZI-25" value="&lt;h1&gt;agregações:&lt;/h1&gt;&lt;div&gt;diagrama de objetos&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;glass=0;sketch=1;fontSize=14;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="40" y="670" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eGNEnY-xpS5idLWhx4ZI-26" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;proibida_pra_mim:Musica&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;b&gt;duração = 2m34s&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;glass=0;sketch=1;strokeColor=#36393d;strokeWidth=1;fillColor=#cdeb8b;" vertex="1" parent="1">
@@ -118,6 +118,75 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="675" y="980" as="sourcePoint" />
             <mxPoint x="610" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGNEnY-xpS5idLWhx4ZI-45" value="&lt;h1&gt;agregações:&lt;/h1&gt;&lt;div&gt;diagrama de classes&lt;/div&gt;&lt;div&gt;+ é public&lt;/div&gt;&lt;div&gt;- é private&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;glass=0;sketch=1;fontSize=14;fontColor=#393C56;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="900" y="65" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eGNEnY-xpS5idLWhx4ZI-61" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Musica&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;- título: String&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ getTitulo: String&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;glass=0;sketch=1;strokeColor=#36393d;strokeWidth=1;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="65" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eGNEnY-xpS5idLWhx4ZI-63" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontSize=14;strokeColor=#3700CC;strokeWidth=1;fillColor=#6a00ff;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="820" y="30" width="10" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="eGNEnY-xpS5idLWhx4ZI-83" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Album&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;- título: String&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ getTitulo: String&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;glass=0;sketch=1;strokeColor=#36393d;strokeWidth=1;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="1161" y="155" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eGNEnY-xpS5idLWhx4ZI-84" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=25;fontColor=#393C56;endArrow=diamondThin;endFill=0;strokeColor=#009900;fillColor=#F2CC8F;endSize=16;" edge="1" parent="1" source="eGNEnY-xpS5idLWhx4ZI-61" target="eGNEnY-xpS5idLWhx4ZI-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="390" as="sourcePoint" />
+            <mxPoint x="1130" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGNEnY-xpS5idLWhx4ZI-85" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Gravadora&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;- nome: String&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ getNome: String&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;glass=0;sketch=1;strokeColor=#36393d;strokeWidth=1;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="910" y="250" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eGNEnY-xpS5idLWhx4ZI-86" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.006;exitY=0.389;exitDx=0;exitDy=0;entryX=0.617;entryY=0.007;entryDx=0;entryDy=0;fontSize=25;fontColor=#393C56;endArrow=diamondThin;endFill=0;strokeColor=#009900;fillColor=#F2CC8F;endSize=16;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="eGNEnY-xpS5idLWhx4ZI-83" target="eGNEnY-xpS5idLWhx4ZI-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1410" y="155" as="sourcePoint" />
+            <mxPoint x="1333.7200000000003" y="214.59000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGNEnY-xpS5idLWhx4ZI-88" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Album&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;- título: String&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;- gravadora: String&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ getTitulo: String&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ getGravadora: String&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;glass=0;sketch=1;strokeColor=#0e8088;strokeWidth=1;fillColor=#b0e3e6;" vertex="1" parent="1">
+          <mxGeometry x="940" y="510" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eGNEnY-xpS5idLWhx4ZI-89" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Musica&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;- título: String&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ getTitulo: String&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;glass=0;sketch=1;strokeColor=#10739e;strokeWidth=1;fillColor=#b1ddf0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="380" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eGNEnY-xpS5idLWhx4ZI-90" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=25;fontColor=#393C56;endArrow=diamondThin;endFill=0;strokeColor=#00CCCC;fillColor=#F2CC8F;endSize=16;" edge="1" parent="1" source="eGNEnY-xpS5idLWhx4ZI-89" target="eGNEnY-xpS5idLWhx4ZI-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="290" as="sourcePoint" />
+            <mxPoint x="681" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGNEnY-xpS5idLWhx4ZI-91" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Playlist&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ nome: String&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ dataHora: LocalDateTime&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ adicionar(musica: Musica): void&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ remover(&lt;/b&gt;&lt;b&gt;musica: Musica&lt;/b&gt;&lt;b&gt;): void&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ reordenar(&lt;/b&gt;&lt;b&gt;musica: Musica, posicao: int&lt;/b&gt;&lt;b&gt;): void&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;glass=0;sketch=1;strokeColor=#36393d;strokeWidth=1;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="280" width="320" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="eGNEnY-xpS5idLWhx4ZI-92" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.558;exitY=1.02;exitDx=0;exitDy=0;entryX=0.567;entryY=0.005;entryDx=0;entryDy=0;fontSize=25;fontColor=#393C56;endArrow=diamondThin;endFill=0;strokeColor=#009900;fillColor=#F2CC8F;endSize=16;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="eGNEnY-xpS5idLWhx4ZI-61" target="eGNEnY-xpS5idLWhx4ZI-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1410" y="120" as="sourcePoint" />
+            <mxPoint x="1251" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGNEnY-xpS5idLWhx4ZI-93" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Evento&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;- nome: String&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ getNome: String&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;glass=0;sketch=1;strokeColor=#56517e;strokeWidth=1;fillColor=#d0cee2;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="470" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eGNEnY-xpS5idLWhx4ZI-95" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Ingresso&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ numero: int&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ assento: int&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ vender(comprador: Usuario): void&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;glass=0;sketch=1;strokeColor=#56517e;strokeWidth=1;fillColor=#d0cee2;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="480" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eGNEnY-xpS5idLWhx4ZI-96" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.011;entryY=0.444;entryDx=0;entryDy=0;fontSize=25;fontColor=#393C56;endArrow=diamondThin;endFill=0;strokeColor=#7F00FF;fillColor=#F2CC8F;endSize=16;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="eGNEnY-xpS5idLWhx4ZI-95" target="eGNEnY-xpS5idLWhx4ZI-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1390.0344827586207" y="560" as="sourcePoint" />
+            <mxPoint x="1350" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eGNEnY-xpS5idLWhx4ZI-97" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Usuario&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ email: String&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ cpf: String&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ comprar(ingresso: Ingresso): void&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;glass=0;sketch=1;strokeColor=#56517e;strokeWidth=1;fillColor=#d0cee2;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="650" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eGNEnY-xpS5idLWhx4ZI-98" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=25;fontColor=#393C56;endArrow=diamondThin;endFill=0;strokeColor=#7F00FF;fillColor=#F2CC8F;endSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eGNEnY-xpS5idLWhx4ZI-95" target="eGNEnY-xpS5idLWhx4ZI-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="650" as="sourcePoint" />
+            <mxPoint x="1310" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
