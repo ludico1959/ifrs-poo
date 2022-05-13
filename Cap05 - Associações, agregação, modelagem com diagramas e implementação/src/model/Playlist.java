@@ -81,7 +81,7 @@ public class Playlist {
 
   @Override
   public String toString() {
-    return "==========\nPlaylist: " + this.getNome() + " " + this.dataHoraCriacao + 
-    "\n" + getMusicas() + "\n==========";
+    return "\n==========\nPlaylist: " + this.getNome() + " " + this.dataHoraCriacao + 
+    "\n" + getMusicas() + "\n==========\n";
   }
 }

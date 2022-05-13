@@ -3,6 +3,7 @@ package src;
 import src.util.*;
 import src.model.*;
 
+// essa API é inspirada no Spotify, como álbums, músicas, playlists, etc.
 class App {
   public static void main(String[] args) {
     Duracao d1 = new Duracao(5, 40, 31);
@@ -12,14 +13,16 @@ class App {
     d1.somar(d2);
     System.out.println(d1);
 
-    Musica papoReto = new Musica("Papo Reto", new Duracao(0, 11, 28));
-    Musica soPorUmaNoite = new Musica("So Por Uma Noite", new Duracao(0, 4, 1));
+    Artista cbjr = new Artista("Charlie Brown Jr.");
+
+    Musica papoReto = new Musica("Papo Reto", new Duracao(0, 11, 28), cbjr);
+    Musica soPorUmaNoite = new Musica("So Por Uma Noite", new Duracao(0, 4, 1), cbjr);
 
     // variable arguments (VARARGS)
-    Album album = new Album("Acustico MTV", papoReto, soPorUmaNoite);
-    System.out.println(album.getTitulo().equals("Acustico MTV"));
-    System.out.println(album.getDuracao().toString()); //0h51m29s
-    System.out.println(album);
+    Album acusticoMTV = new Album("Acustico MTV", papoReto, soPorUmaNoite);
+    System.out.println(acusticoMTV.getTitulo().equals("Acustico MTV"));
+    System.out.println(acusticoMTV.getDuracao().toString()); //0h51m29s
+    System.out.println(acusticoMTV);
 
     Playlist curtidas = new Playlist("Músicas Curtidas");
     System.out.println(curtidas.getNome());
@@ -57,5 +60,30 @@ class App {
     } catch (Exception e) {
       System.out.println(e);
     }
+
+    Musica meEncontra = new Musica("Me Encontra", d1, cbjr);
+    Musica soOsLoucosSabem = new Musica("Só Os Loucos Sabem", d2, cbjr);
+
+    Album camisa10 = new Album("Camisa 10 Joga Bola Até na Chuva", meEncontra, soOsLoucosSabem);
+    System.out.println(camisa10);
+
+    Colecao minhaColecao = new Colecao("Minha Coleção de Álbuns");
+    minhaColecao.adicionarAlbum(acusticoMTV);
+    minhaColecao.adicionarAlbum(camisa10);
+
+
+    ///////////////////////////////////////////////////////////////////////
+    // navegar pelo/atravessar o grafo de objetos
+
+    // DUVIDA: Por que alguns arrays precisam de .get(index) e outros de [index]?
+    System.out.println(minhaColecao);
+    System.out.println(minhaColecao.getAlbuns().get(1)
+      .getMusicas()[0]
+      .getArtista()
+      .getNome());
+
+      System.out.println(sk8.getMusicas().get(0)
+        .getDuracao()
+        .getMinutos());
   }
 }
