@@ -1,6 +1,6 @@
 package src.model;
 
-import java.util.*;
+import java.util.Arrays;
 import src.util.Duracao;
 
 public class Album {

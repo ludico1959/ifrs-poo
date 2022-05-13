@@ -7,6 +7,10 @@ public class Duracao {
     this.segundos = horas * 3600 + minutos * 60 + segundos;
   }
 
+  public Duracao() {
+    this.segundos = 0;
+  }
+
   public int getHoras() {
     return this.segundos / 3600;
   }
