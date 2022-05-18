@@ -6,7 +6,7 @@ import src.model.*;
 // essa API é inspirada no Spotify, como álbums, músicas, playlists, etc.
 class App {
   public static void main(String[] args) {
-    Duracao d1 = new Duracao(5, 40, 31);
+    src.util.Duracao d1 = new Duracao(5, 40, 31);
     System.out.println(d1);
     
     Duracao d2 = new Duracao(12, 38, 51);
@@ -75,10 +75,16 @@ class App {
     ///////////////////////////////////////////////////////////////////////
     // navegar pelo/atravessar o grafo de objetos
 
-    // DUVIDA: Por que alguns arrays precisam de .get(index) e outros de [index]?
+    // getMusica() retorna um array e getAlbuns() retorna um array lista
     System.out.println(minhaColecao);
     System.out.println(minhaColecao.getAlbuns().get(1)
       .getMusicas()[0]
+      .getArtista()
+      .getNome());
+
+    // maneira alternativa
+    System.out.println(minhaColecao.getAlbum(1)
+      .getMusica(0)
       .getArtista()
       .getNome());
 

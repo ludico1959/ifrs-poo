@@ -18,6 +18,10 @@ public class Colecao {
     return this.albuns;
   }
 
+  public Album getAlbum(int index) {
+    return this.getAlbuns().get(index);
+  }
+
   public void adicionarAlbum(Album novoAlbum) {
     this.albuns.add(novoAlbum);
   }

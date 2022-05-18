@@ -36,6 +36,10 @@ public class Album {
     return this.musicas;
   }
 
+  public Musica getMusica(int index) {
+    return getMusicas()[index];
+  }
+
   @Override
   public String toString() {
     return "\n----------\nAlbum: " + this.getTitulo() + "\n" + Arrays.toString(this.musicas) + "\n----------\n";
