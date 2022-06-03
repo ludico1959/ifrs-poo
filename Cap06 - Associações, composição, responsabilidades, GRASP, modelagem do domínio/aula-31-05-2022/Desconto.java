@@ -1,4 +1,4 @@
-/** classe abstrata
+/** classe abstrata (o contrário é uma classe concreta)
  * não funciona sozinha
  * não é possível estanciá-la
  * ele serve apenas para ser extendida
@@ -19,4 +19,9 @@ abstract public class Desconto {
    * recebendo um Funcionario de parâmetro e retornando um inteiro
    *  */
   abstract public int calcular(Funcionario funcionario); // não tem corpo
+
+  @Override
+  public String toString() {
+    return this.nome;
+  }
 }

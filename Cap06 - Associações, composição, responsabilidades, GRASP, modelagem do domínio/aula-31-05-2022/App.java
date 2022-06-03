@@ -6,7 +6,7 @@ class App {
     Funcionario luiz = new Funcionario("Luiz", 1500, 0);
 
     // pode colocar Inss como o tipo de inss ao invés de desconto
-    Desconto inss = new Inss("inss");
+    Desconto inss = new Inss("inss");   // manter o tipo da classe abstrata 
 
     int valor1 = inss.calcular(lucas);
     int valor2 = inss.calcular(luiz);
@@ -21,5 +21,15 @@ class App {
     Desconto desc = new ValeTransporte("vt");
     System.out.println(desc.getNome());
     System.out.println(desc.calcular(lucas));
+
+    ContraCheque contraCheque = new ContraCheque(luiz);
+
+    int liquido = contraCheque.getSalarioLiquido();
+
+    System.out.println("Líquido: " + liquido);
+
+    contraCheque.adicionarDesconto(inss, vt, new ImpostoDeRenda("IR"));
+
+    System.out.println(contraCheque);
   }
 }

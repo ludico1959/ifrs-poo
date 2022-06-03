@@ -8,5 +8,4 @@ public class Inss extends Desconto {
   public int calcular(Funcionario funcionario) {
     return (int) (funcionario.getSalario() * 0.175);
   }
-  
 }

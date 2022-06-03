@@ -20,4 +20,9 @@ class Funcionario {
   public int dependentes() {
     return this.dependentes;
   }
+
+  @Override
+  public String toString() {
+    return this.nome;
+  }
 }
